@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "导入 DeepSeek 会话",
+    "description": "把 DeepSeek Harness 自己保存的对话日志（session.v4.jsonl.zstd）从任意文件夹导入当前配置，导入后可直接续聊。"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Import DeepSeek sessions",
+    "description": "Import DeepSeek Harness's own conversation logs (session.v4.jsonl.zstd) from any folder into this profile and continue them."
+  }
+}
