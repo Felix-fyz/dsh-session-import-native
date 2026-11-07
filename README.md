@@ -39,11 +39,25 @@ DeepSeek Harness（dsh）插件：把 **dsh 自己保存的会话日志**（`ses
 
 ## 安装
 
+**从 GitHub 安装：**
+
+```powershell
+git clone https://github.com/Felix-fyz/dsh-session-import-native.git
+```
+
+然后把克隆下来的目录作为本地 bundle 装进当前 profile：
+
+```text
+plugin_manager install_bundle  <克隆目录的绝对路径>
+```
+
+**从本地目录安装：**
+
 ```text
 plugin_manager install_bundle  <绝对路径>\dsh-session-import-native
 ```
 
-或把本目录作为本地 bundle 安装到当前 profile；安装后由 HMR 生效。
+安装后由 HMR 生效；Host 侧代码改动需要在插件管理里关闭再打开该插件。
 
 ## 开发
 
